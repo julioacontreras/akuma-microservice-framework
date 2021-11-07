@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+const chalk = require('chalk');
 
 export const printStartServer = (serverName: string) => {
   console.info(' ');
