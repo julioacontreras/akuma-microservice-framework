@@ -1,5 +1,6 @@
 export interface RepositoryAdapter {
   transformer: unknown;
+  db: unknown;
   setDB: (db: unknown) => void;
   createRepository: (table: string, schema: unknown) => {};
   createOne: (data: unknown) => Promise<unknown>;
